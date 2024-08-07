@@ -1,4 +1,4 @@
-import "./FriendItemStyle.module.css";
+import "./FriendItemStyle.css";
 
 export default function FriendItemStyle({ variant, children }) {
   const styles = ["status", variant];
