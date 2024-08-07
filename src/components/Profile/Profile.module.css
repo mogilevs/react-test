@@ -1,0 +1,54 @@
+.card {
+  width: 300px;
+
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: rgb(200, 198, 198);
+}
+
+.top {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 100px;
+  aspect-ratio: 1;
+  background-color: #000;
+}
+
+.nameText {
+  margin-top: 30px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+.tagText {
+  margin-top: 20px;
+  color: gray;
+  font-size: 20px;
+}
+.list {
+  display: flex;
+}
+.item {
+  border-top: 1px solid gray;
+  height: 80px;
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.item:not(:last-child) {
+  border-right: 1px solid gray;
+}
+.itemValue {
+  font-weight: 600;
+}
